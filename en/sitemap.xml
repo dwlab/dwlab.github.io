@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://dwlab.github.io/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/categories/"
+                href="http://dwlab.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://dwlab.github.io/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://dwlab.github.io/en/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/"
+                href="http://dwlab.github.io/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://dwlab.github.io/en/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://dwlab.github.io/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/zh/tags/"
+                href="http://dwlab.github.io/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://dwlab.github.io/en/tags/"
                 />
   </url>
   
