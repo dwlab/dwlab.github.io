@@ -3,9 +3,9 @@
 }
 
 .member-card>div {
-  height: 350px;
+  height: 360px;
 }
 
 .member-card>div>p {
-  min-height: 60px;
+  min-height: 90px;
 }
