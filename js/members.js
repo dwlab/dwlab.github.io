@@ -1,6 +1,17 @@
 var members = [
     {
         imgSrc: "https://dwlab.github.io/images/person2.jpg",
+        name: "林亭延",
+        position: "110 碩士生",
+        description: "異質系統上協同漸增式貢獻度管理模型",
+        socialLinks: [
+            { icon: "icon-twitter", url: "#" },
+            { icon: "icon-facebook", url: "#" },
+            { icon: "icon-github", url: "#" }
+        ]
+    },
+    {
+        imgSrc: "https://dwlab.github.io/images/person2.jpg",
         name: "陳柏翰",
         position: "104 碩士生",
         description: "異質系統上協同漸增式貢獻度管理模型",
