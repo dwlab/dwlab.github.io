@@ -1,12 +1,12 @@
 var members = [
     {
-        imgSrc: "https://dwlab.github.io/images/person2.jpg",
+        imgSrc: "https://dwlab.github.io/images/林亭延.jpg",
         name: "林亭延",
-        position: "110 碩士生",
-        description: "異質系統上協同漸增式貢獻度管理模型",
+        position: "112 博士生",
+        description: "",
         socialLinks: [
-            { icon: "icon-twitter", url: "#" },
-            { icon: "icon-facebook", url: "#" },
+            { icon: "icon-twitter", url: "mailto:tingyanlin.77@gmail.com" },
+            { icon: "icon-facebook", url: "https://www.facebook.com/tingyan.lin.319" },
             { icon: "icon-github", url: "#" }
         ]
     },
@@ -33,3 +33,8 @@ var members = [
         ]
     }
 ];
+
+// 將 members 變數暴露給其他文件
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = members;
+}
