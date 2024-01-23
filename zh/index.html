@@ -278,6 +278,63 @@
 					</div>
 				</div>
 			</div>
+
+
+
+
+<div class="row row-bottom-padded-md">
+    <!-- 成員卡片模板 -->
+    <template id="member-card-template">
+        <!-- ...（與前面的相同）... -->
+    </template>
+
+    <!-- 動態生成成員卡片 -->
+    <div id="member-container"></div>
+
+    <script src="path/to/members.js"></script>
+    <script>
+        // 取得成員卡片模板
+        var template = document.getElementById("member-card-template");
+
+        // 取得成員容器
+        var memberContainer = document.getElementById("member-container");
+
+        // 動態生成成員卡片
+        members.forEach(function (member) {
+            // 複製模板
+            var cardClone = document.importNode(template.content, true);
+
+            // 填入成員資訊
+            cardClone.querySelector("img").src = member.imgSrc;
+            cardClone.querySelector("h3").textContent = member.name;
+            cardClone.querySelector(".fh5co-position").textContent = member.position;
+            cardClone.querySelector("p").textContent = member.description;
+
+            // 動態生成社交媒體連結
+            var socialList = cardClone.querySelector(".social");
+            member.socialLinks.forEach(function (link) {
+                var listItem = document.createElement("li");
+                var anchor = document.createElement("a");
+                anchor.href = link.url;
+                var icon = document.createElement("i");
+                icon.className = link.icon;
+                anchor.appendChild(icon);
+                listItem.appendChild(anchor);
+                socialList.appendChild(listItem);
+            });
+
+            // 將成員卡片加入容器
+            memberContainer.appendChild(cardClone);
+        });
+    </script>
+</div>
+
+
+
+
+
+
+			
 			<div class="row">
 
 				<div class="col-md-4 member-card">
@@ -921,5 +978,6 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="https://dwlab.github.io/js/google_map.js"></script>
         <script src="https://dwlab.github.io/js/main.js"></script>
+	<script src="path/to/members.js"></script>
     </body>
 </html>
