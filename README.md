@@ -1,1 +1,2 @@
-主檔為zh/index.html
+主檔位址: zh/index.html
+照片位址: images/students, images/default
