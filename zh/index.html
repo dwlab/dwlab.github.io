@@ -317,43 +317,6 @@
 				</div>
 
 
-
-				
-    <script>
-        // Function to create member card HTML
-        function createMemberCard(member) {
-            return `
-                <div class="col-md-4 member-card">
-                    <div class="fh5co-person text-center to-animate">
-                        <figure><img src="${member.imgSrc}" alt=""></figure>
-                        <h3>${member.name}</h3>
-                        <span class="fh5co-position">${member.position}</span>
-                        <p></p>
-                        <ul class="social social-circle">
-                            ${member.social.map(s => `<li><a href="${s.link}"><i class="${s.icon}"></i></a></li>`).join('')}
-                        </ul>
-                    </div>
-                </div>
-            `;
-        }
-
-        // Fetch member data from JSON file and insert into the document
-        fetch('members.json')
-            .then(response => response.json())
-            .then(members => {
-                document.querySelector('.row').innerHTML = members.map(createMemberCard).join('');
-            })
-            .catch(error => console.error('Error fetching member data:', error));
-    </script>
-
-
-
-
-
-
-
-
-
 				
 				
 				<div class="col-md-4 member-card">
