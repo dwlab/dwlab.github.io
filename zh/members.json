@@ -1,0 +1,32 @@
+[
+    {
+        "name": "蔡宗儒",
+        "position": "113 碩士生",
+        "imgSrc": "https://dwlab.github.io/images/person2.jpg",
+        "social": [
+            { "icon": "icon-mail2", "link": "#" },
+            { "icon": "icon-facebook", "link": "#" },
+            { "icon": "icon-linkedin", "link": "#" }
+        ]
+    },
+    {
+        "name": "張玉蓁",
+        "position": "112 碩士生",
+        "imgSrc": "https://dwlab.github.io/images/person2.jpg",
+        "social": [
+            { "icon": "icon-mail2", "link": "#" },
+            { "icon": "icon-facebook", "link": "#" },
+            { "icon": "icon-linkedin", "link": "#" }
+        ]
+    },
+    {
+        "name": "陳姿潔",
+        "position": "112 碩士生",
+        "imgSrc": "https://dwlab.github.io/images/person2.jpg",
+        "social": [
+            { "icon": "icon-mail2", "link": "#" },
+            { "icon": "icon-facebook", "link": "#" },
+            { "icon": "icon-linkedin", "link": "#" }
+        ]
+    }
+]
