@@ -28,5 +28,15 @@
             { "icon": "icon-facebook", "link": "#" },
             { "icon": "icon-linkedin", "link": "#" }
         ]
+    },
+    {
+        "name": "甘貴宇",
+        "position": "104 碩士生",
+        "imgSrc": "https://dwlab.github.io/images/person2.jpg",
+        "social": [
+            { "icon": "icon-mail2", "link": "#" },
+            { "icon": "icon-facebook", "link": "#" },
+            { "icon": "icon-linkedin", "link": "#" }
+        ]
     }
 ]
